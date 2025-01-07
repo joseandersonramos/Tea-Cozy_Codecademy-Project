@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: gray;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.nav-list {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  height: 69px;
+  background-color: lightgray;
+  border-bottom: 1px solid seashell;
+  justify-content: flex-end;
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+}
+
+.nav-item {
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
