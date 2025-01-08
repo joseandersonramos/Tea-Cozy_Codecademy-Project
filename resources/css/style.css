@@ -5,22 +5,27 @@
 }
 
 body {
+  background-color: black;
+  color: seashell;
   font-family: Helvetica;
   font-size: 22px;
-  color: seashell;
-  background-color: gray;
   opacity: 0.9;
   text-align: center;
 }
 
 .nav-list {
   align-items: center;
-  display: flex;
-  list-style-type: none;
-  height: 69px;
-  background-color: lightgray;
+  background-color: black;
   border-bottom: 1px solid seashell;
+  display: flex;
+  height: 69px;
   justify-content: flex-end;
+  list-style-type: none;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
 }
 
 .nav-item:first-child {
@@ -29,10 +34,32 @@ body {
 
 .nav-item {
   margin-right: 15px;
-  text-decoration: none;
 }
 
-.logo {
-    height: 50px;
-    margin-left: 10px;
+.nav-item a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+#mission {
+  align-items: center;
+  background-image: url("/resources/images/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 700px;
+  justify-content: center;
+}
+
+#mission div {
+  background-color: black;
+  width: 1200px;
+}
+
+.mission-title {
+  margin: 10px 0;
+}
+
+.mission-text {
+  margin: 20px 0;
 }
