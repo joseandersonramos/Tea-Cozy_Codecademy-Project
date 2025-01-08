@@ -9,7 +9,6 @@ body {
   color: seashell;
   font-family: Helvetica;
   font-size: 22px;
-  opacity: 0.9;
   text-align: center;
 }
 
@@ -41,6 +40,15 @@ body {
   text-decoration: underline;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.9;
+}
+
+/* Mission section */
+
 #mission {
   align-items: center;
   background-image: url("../images/img-mission-background.jpg");
@@ -52,15 +60,35 @@ body {
   justify-content: center;
 }
 
-#mission div {
+.mission-text {
   background-color: black;
   width: 1200px;
+  padding: 10px 0;
 }
 
-.mission-title {
-  margin: 10px 0;
+.mission-text h2 {
+  margin-bottom: 15px;
 }
 
-.mission-text {
-  margin: 20px 0;
+/* Featured Tea section */
+
+#featured-tea {
+  width: 1000px;
+  padding-top: 60px;
+}
+
+.featured-tea-text h2 {
+  margin-bottom: 15px;
+}
+
+.tea-img {
+  height: 200px;
+  width: 300px;
+  margin: 20px 15px 10px;
+}
+
+.tea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
