@@ -80,7 +80,7 @@ main {
 
 #featured-tea {
   width: 1000px;
-  padding-top: 60px;
+  margin-top: 60px;
 }
 
 .featured-tea-text h2 {
@@ -97,4 +97,18 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-top: 60px;
+  width: 1200px;
+  border: 2px solid red;
+}
+
+#locations h2 {
+  margin-top: 60px;
 }
