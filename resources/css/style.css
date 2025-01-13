@@ -99,16 +99,31 @@ main {
   justify-content: center;
 }
 
+/* Locations section */
+
 #locations {
   background-image: url("../images/img-locations-background.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 500px;
+  height: 575px;
   margin-top: 60px;
   width: 1200px;
-  border: 2px solid red;
 }
 
 #locations h2 {
   margin-top: 60px;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.loc {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-around;
+  margin: 0 20px;
+  width: 300px;
 }
